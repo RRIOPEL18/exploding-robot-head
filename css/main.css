@@ -51,7 +51,7 @@ body {
   left: 50%;
 }
 
-.robot-head-right:hover {
+.robot:hover .robot-head-right {
   left: 55%;
   top: 7%;
 }
@@ -60,14 +60,7 @@ body {
   right: 50%;
 }
 
-.robot-head-left:hover {
+.robot:hover .robot-head-left {
   right: 55%;
   top: 7%;
-}
-
-.robot-head-right:hover,
-.robot-head-left:hover {
-  width: 125px;
-  position: absolute;
-  top: 5%;
 }
