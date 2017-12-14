@@ -24,7 +24,10 @@ body {
 .robot-body {
   width: 320px;
   position: absolute;
-  left: 30px;
+  left: 50%;
+  top: 23%;
+  transform: translateX(-50%);
+  display: block;
 }
 
 .robot-brain {
